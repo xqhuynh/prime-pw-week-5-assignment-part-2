@@ -22,3 +22,32 @@ h2 {
   padding: 1em;
   text-align: center;
 }
+
+.top-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(178, 178, 236);
+  color: white;
+  height: 100px;
+}
+
+h3 {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: rgb(246, 241, 239);
+  font-size: 2rem;
+  background-color: black;
+}
+
+.col {
+  padding-bottom: 50px;
+}
+
+.col > img {
+  width: 175px;
+}
